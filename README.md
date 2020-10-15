@@ -6,7 +6,7 @@ Currently, only git aliases are there, updates will come along the way.
 
 ## Downloading
 ```bash
-curl -o .bash_aliases 
+curl -o .bash_aliases https://raw.githubusercontent.com/BruceChanJianLe/bash-alias/main/.bash_aliases
 ```
 
 ## Git Aliases
