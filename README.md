@@ -13,6 +13,7 @@ curl -o .bash_aliases https://raw.githubusercontent.com/BruceChanJianLe/bash-ali
 ```bash
 # Git aliases
 alias g='git'
+alias ga='git add'
 alias gcl='git clone'
 alias gs='git status'
 alias gci='git commit'
@@ -22,6 +23,13 @@ alias gb='git branch'
 alias gp='git push'
 ```
 
+## Useful Aliases
+```bash
+# Safe remove
+alias rm='rm -i'
+```
+
 ## Reference
 
 - popular git aliases [link](https://github.com/Bash-it/bash-it/blob/master/aliases/available/git.aliases.bash)
+- basic intro to alias [video1](https://www.youtube.com/watch?v=J8nGqkUJMxU) [video2](https://www.youtube.com/watch?v=UBzFWyUF77s)
