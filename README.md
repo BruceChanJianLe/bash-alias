@@ -21,3 +21,7 @@ alias gcob='git checkout branch'
 alias gb='git branch'
 alias gp='git push'
 ```
+
+## Reference
+
+- popular git aliases [link](https://github.com/Bash-it/bash-it/blob/master/aliases/available/git.aliases.bash)
