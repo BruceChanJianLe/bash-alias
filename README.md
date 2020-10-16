@@ -21,6 +21,7 @@ alias gco='git checkout'
 alias gcob='git checkout branch'
 alias gb='git branch'
 alias gp='git push'
+alias grm='git rm'
 ```
 
 ## Useful Aliases
