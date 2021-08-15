@@ -28,7 +28,7 @@ alias grm='git rm'
 ```bash
 # Safe remove
 alias rm='rm -i'
-alias roskill="for i in $(pgrep -f melodic); do kill $i; done"
+alias roskill='for i in $(pgrep -f melodic); do kill $i; done'
 ```
 
 ## Reference
