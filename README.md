@@ -29,6 +29,7 @@ alias grm='git rm'
 # Safe remove
 alias rm='rm -i'
 alias roskill='for i in $(pgrep -f melodic); do kill $i; done'
+alias gazebokill="killall -9 gazebo & killall -9 gzserver & killall -9 gzclient"
 ```
 
 ## Reference
