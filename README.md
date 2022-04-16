@@ -28,10 +28,24 @@ alias grm='git rm'
 ```bash
 # Safe remove
 alias rm='rm -i'
-alias roskill='for i in $(pgrep -f melodic); do kill $i; done'
-alias gazebokill="killall -9 gazebo & killall -9 gzserver & killall -9 gzclient"
 ```
 
+## ROS Aliases
+```bash
+# Kill ROS1 and Gazebo Process
+alias roskill='for i in $(pgrep -f $ROS_DISTRO); do kill $i; done'
+alias gazebokill="killall -9 gazebo & killall -9 gzserver & killall -9 gzclient"
+
+# Kill Gazebo Ignition
+alias ignkill='pkill -f "ign gazebo gui" && pkill -f "ign gazebo server"'
+
+# Sourcing different version of ROS
+alias ross='. $HOME/.ros_env'
+alias ross2='. /$HOME/.ros2_env'
+# If you want more versions you can do like so
+alias foxy='. /$HOME/.foxy_env'
+alias rolling='. /$HOME/.rolling_env'
+```
 ## Reference
 
 - popular git aliases [link](https://github.com/Bash-it/bash-it/blob/master/aliases/available/git.aliases.bash)
