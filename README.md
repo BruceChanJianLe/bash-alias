@@ -34,6 +34,8 @@ alias rm='rm -i'
 ```bash
 # Kill ROS1 and Gazebo Process
 alias roskill='for i in $(pgrep -f $ROS_DISTRO); do kill $i; done'
+# or
+alias roskill='pkill -f ros/melodic'
 alias gazebokill="killall -9 gazebo & killall -9 gzserver & killall -9 gzclient"
 
 # Kill Gazebo Ignition
@@ -45,6 +47,11 @@ alias ross2='. /$HOME/.ros2_env'
 # If you want more versions you can do like so
 alias foxy='. /$HOME/.foxy_env'
 alias rolling='. /$HOME/.rolling_env'
+```
+
+## VPN
+```bash
+alias vpn='$HOME/vpn connect nexus.a-star.edu.sg'
 ```
 ## Reference
 
