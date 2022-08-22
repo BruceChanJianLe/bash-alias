@@ -53,6 +53,11 @@ alias rolling='. /$HOME/.rolling_env'
 ```bash
 alias vpn='$HOME/vpn connect nexus.a-star.edu.sg'
 ```
+
+## Others
+```bash
+alias sane='stty sane'
+```
 ## Reference
 
 - popular git aliases [link](https://github.com/Bash-it/bash-it/blob/master/aliases/available/git.aliases.bash)
