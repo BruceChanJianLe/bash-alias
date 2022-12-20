@@ -52,6 +52,8 @@ alias rolling='. /$HOME/.rolling_env'
 ## VPN
 ```bash
 alias vpn='$HOME/vpn connect nexus.a-star.edu.sg'
+alias vpnd='$HOME/vpn disconnect'
+alias vpns='$HOME/vpn state'
 ```
 
 ## Others
