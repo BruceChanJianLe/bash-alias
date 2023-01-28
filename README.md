@@ -47,6 +47,9 @@ alias ross2='. /$HOME/.ros2_env'
 # If you want more versions you can do like so
 alias foxy='. /$HOME/.foxy_env'
 alias rolling='. /$HOME/.rolling_env'
+
+# rosdep
+alias rosdepinstall='rosdep install --from-paths src --ignore-src -r -y'
 ```
 
 ## VPN
