@@ -33,7 +33,7 @@ alias rm='rm -i'
 ## ROS Aliases
 ```bash
 # Kill ROS1 and Gazebo Process
-alias roskill='for i in $(pgrep -f $ROS_DISTRO); do kill $i; done'
+alias roskill='for i in $(pgrep -f ros/$ROS_DISTRO); do kill $i; done'
 # or
 alias roskill='pkill -f ros/melodic'
 alias gazebokill="killall -9 gazebo & killall -9 gzserver & killall -9 gzclient"
