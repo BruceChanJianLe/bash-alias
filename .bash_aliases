@@ -41,8 +41,8 @@ alias gf='git fetch'
 
 # Safe remove
 alias rm='rm -i'
-alias gwd='pwd | xargs echo -n | xclip -selection clipboard'
 
 # Others
 alias sane='stty sane'
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias gwd='pwd | xargs echo -n | xclip -selection clipboard'
