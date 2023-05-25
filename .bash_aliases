@@ -6,7 +6,7 @@ alias vim='nvim'
 alias vi='nvim'
 
 # ROS
-alias gazebokill="killall -9 gazebo & killall -9 gzserver & killall -9 gzclient"
+alias gzkill="killall -9 gazebo & killall -9 gzserver & killall -9 gzclient"
 alias roskill='for i in $(pgrep -f ros/$ROS_DISTRO); do kill $i; done'
 alias ross='. ~/.ros_env'
 alias foxy='. ~/.foxy_env'
@@ -36,9 +36,12 @@ alias gcob='git checkout branch'
 alias gb='git branch'
 alias gp='git push'
 alias grm='git rm'
+alias gw='git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"'
+alias gf='git fetch'
 
 # Safe remove
 alias rm='rm -i'
+alias gwd='pwd | xargs echo -n | xclip -selection clipboard'
 
 # Others
 alias sane='stty sane'
